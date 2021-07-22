@@ -1,5 +1,8 @@
-const Header = () => (
-  <div className={'header'}> This is my header.</div>
+const Header = ({user}) => (
+  <div className={'header'}>
+
+    <span>{user.username}</span>
+  </div>
 )
 
 export default Header;
